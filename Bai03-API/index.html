@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .active {
+      background-color: #ddd;
+    }
+  </style>
+  <title>API Testing</title>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div>
+      <button id="postsButton" class="active" onclick="loadData('posts')">Posts</button>
+      <button id="photosButton" onclick="loadData('photos')">Photos</button>
+      <button id="albumsButton" onclick="loadData('albums')">Albums</button>
+    </div>
+    <ul id="dataList"></ul>
+  
+    <script src="./main.js">  </script>
+  </body>
+</html>
